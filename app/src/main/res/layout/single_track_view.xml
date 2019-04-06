@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/colorBlack"
+        android:layout_height="60dp">
+    <LinearLayout
+            android:weightSum="1"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+
+        <ImageView android:layout_width="0dp"
+                   android:layout_weight="0.2"
+                   android:id="@+id/st_img"
+                   android:scaleType="centerCrop"
+                   android:layout_margin="10dp"
+                   android:src="@drawable/aa"
+                   android:layout_height="match_parent"/>
+
+        <LinearLayout android:layout_width="0dp"
+                      android:layout_weight="0.7"
+                      android:layout_margin="10dp"
+                      android:orientation="vertical"
+                      android:layout_height="match_parent">
+
+            <TextView android:layout_width="match_parent"
+                      android:text="Song Name"
+                      android:id="@+id/st_name"
+                      android:textColor="@color/colorWhite"
+                      android:maxLines="1"
+                      android:ellipsize="end"
+                      android:textSize="14dp"
+                      android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:text="artist name"
+                      android:textColor="#ccc"
+                      android:id="@+id/st_artist"
+                      android:textSize="12dp"
+                      android:maxLines="1"
+                      android:ellipsize="end"
+                      android:layout_marginTop="2dp"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

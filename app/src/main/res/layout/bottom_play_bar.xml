@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:id="@+id/bar_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/colorBlueLight"
+        android:layout_height="54dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ProgressBar
+
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:progressDrawable="@drawable/bottom_progress"
+            android:layout_weight="0.04"
+            android:id="@+id/bottom_pb"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="0.9"
+                  android:weightSum="1">
+
+
+    <ImageView android:layout_width="0dp"
+               android:layout_weight="0.12"
+               android:id="@+id/btm_bar_art"
+               android:scaleType="centerCrop"
+               android:layout_margin="5dp"
+               android:src="@drawable/aa"
+               android:layout_height="match_parent"/>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="0.73"
+                  android:layout_margin="5dp"
+                  android:orientation="vertical"
+                  android:layout_height="match_parent">
+
+        <TextView android:layout_width="match_parent"
+                  android:text="Song Name"
+                  android:id="@+id/now_playing"
+                  android:textColor="@color/colorWhite"
+                  android:maxLines="1"
+                  android:ellipsize="end"
+                  android:textSize="14dp"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:text="artist name"
+                  android:textColor="#ccc"
+                  android:id="@+id/artist"
+                  android:textSize="13dp"
+                  android:maxLines="1"
+                  android:ellipsize="end"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+        <ImageView
+                android:id="@+id/bb_playpause_iv"
+                android:backgroundTint="@color/textColor_W"
+                android:src="@drawable/play"
+                android:layout_margin="5dp"
+                android:layout_width="43dp"
+                android:layout_weight="0.13"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+</LinearLayout>

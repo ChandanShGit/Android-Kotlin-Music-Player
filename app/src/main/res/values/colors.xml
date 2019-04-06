@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlueLight">#2D2D41</color>
+    <color name="textColor">#000000</color>
+    <color name="textColor_W">#FFFFFF</color>
+    <color name="toolbarColor">#000018</color>
+    <color name="psr2">#e96969</color>
+    <color name="maincheck">#014574</color>
+    <color name="transparent">#3f014574</color>
+    <color name="transparent_W">#3fffffff</color>
+
+</resources>

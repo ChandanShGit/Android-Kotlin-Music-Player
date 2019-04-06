@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView android:layout_width="match_parent"
+                                        app:cardCornerRadius="20dp"
+                                        android:layout_margin="12dp"
+                                        android:layout_height="250dp">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="vertical"
+                      android:background="@color/colorBlueLight"
+                      android:padding="12dp"
+                      android:layout_height="match_parent">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textSize="28sp"
+                      android:textColor="@color/colorWhite"
+                      android:text="@string/quick_settings"
+
+                      android:padding="10dp"
+            />
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:weightSum="1"            >
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="0.8"
+                          android:layout_height="wrap_content"
+                          android:textSize="18sp"
+                          android:text="@string/show_all_sounds"
+                          android:textColor="@color/colorWhite"
+                          android:padding="10dp"
+                />
+                <Switch android:layout_width="0dp"
+                              android:layout_weight="0.2"
+                              android:layout_height="match_parent"/>
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:weightSum="1"            >
+                <TextView android:layout_width="0dp"
+                          android:layout_weight="0.8"
+                          android:layout_height="wrap_content"
+                          android:textSize="18sp"
+                          android:text="@string/show_recent"
+                          android:textColor="@color/colorWhite"
+                          android:padding="10dp"
+                />
+                <Switch android:layout_width="0dp"
+                        android:layout_weight="0.2"
+                        android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:weightSum="1"            >
+                <TextView android:layout_width="0dp"
+                          android:textColor="@color/colorWhite"
+                          android:layout_weight="0.8"
+                          android:layout_height="wrap_content"
+                          android:textSize="18sp"
+                          android:text="@string/theme"
+                          android:padding="10dp"
+                />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
